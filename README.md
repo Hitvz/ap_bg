@@ -1,7 +1,8 @@
 # ap_bg
 让create_ap在后台运行的shell脚本
 
-###1、自行安装create_ap
+### 1、自行安装create_ap
+
 ###2、自行安装screen命令
 
 命令简介：
