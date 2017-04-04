@@ -6,16 +6,19 @@
 ### 2、自行安装screen命令
 
 命令简介：
-screen -ls 列出所有screen
+```
+screen -ls 列出所有screen  
+
 screen -r  列出所有screen
 
-进入某个screen会话
+进入某个screen会话  
+
 screen -r tty.host 
 
 	3619.ap_bg	(2017年04月04日 16时02分21秒)	(Detached)
 
 screen -r 3619.ap_bg 或者 screen -r ap_bg
-
+```
 进入会话之后，可以退出会话 ctrl+a ，再按：键， 最下面会有提示符： 输入quit退出这个screen会话
 
 ### 3、自己修改ap.sh里面的create_ap参数
